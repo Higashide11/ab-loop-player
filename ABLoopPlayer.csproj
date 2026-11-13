@@ -7,6 +7,18 @@
     <RootNamespace>ABLoopPlayer</RootNamespace>
     <LangVersion>7.3</LangVersion>
     <PlatformTarget>AnyCPU</PlatformTarget>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <DebugType>none</DebugType>
+    <Deterministic>true</Deterministic>
+    <AssemblyTitle>ABループプレイヤー</AssemblyTitle>
+    <Description>AB区間ループ再生ができるWindows用動画プレイヤー</Description>
+    <Company>Higashide11</Company>
+    <Product>ABLoopPlayer</Product>
+    <Copyright>Copyright (c) 2026 Higashide11</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="all" />
